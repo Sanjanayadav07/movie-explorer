@@ -1,16 +1,83 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Movie Explorer web application built using React and Tailwind CSS. Users can search movies, watch trailers, and manage favorites with a clean and premium UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 Add your deployed link here 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 Search movies in real-time
+* 🎬 Browse Popular, Top Rated & Upcoming movies
+* 🎥 Watch movie trailers (YouTube integration)
+* ❤️ Add/remove favorites (stored in localStorage)
+* 🌙 Dark / Light mode toggle
+* 📄 Pagination (Load more movies)
+* 🎨 Premium UI with hover effects & animations
+
+---
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* Tailwind CSS
+* Axios
+* TMDB API
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+VITE_API_KEY=your_tmdb_api_key
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/frontend-developer-intern-assignment-2.git
+cd frontend-developer-intern-assignment-2
+npm install
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── context/
+ └── App.jsx
+```
+
+---
+
+## 💡 Future Enhancements
+
+* 🔐 User authentication
+* 🤖 AI-based recommendations
+* 🎭 Genre-based filtering
+* 📊 Dashboard analytics
+
+---
+
+## 👩‍💻 Author
+
+Sanjana Yadav
+
+---
+
+## ⭐ Acknowledgements
+
+Data provided by TMDB API.
